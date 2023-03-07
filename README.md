@@ -20,18 +20,17 @@ Based on various meteorological surveys and people's styles, the service provide
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- This analysis highlights the Exploratory Data Analysis (EDA) for Loan Data Set
+- This analysis highlights the Exploratory Data Analysis (EDA) and Multiple Linear Regression  for Bike Sharing Data Set
 - Various EDA and data modelling process as been carried for bike sharing dataset such as
     - Data Sourcing
-    - Data cleaning
-    - Univariate analysis
-    - Bivariate analysis
-    - Derived metrics
-- Various visual graphs such as matplotlib and seaborn are used for Exploratory Data Analysis
-- The Problem Statement is as follows
+    - Data Cleaning
+    - Plotting the Data
+    - Choosing the Model
+    - Assess the Goodness of Fit
+    - Making Predictions
+    - Interpret the Results
 
--  model the demand for shared bikes with the available independent variables. It will be used by the management to understand how exactly the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market. 
-
+- Various visual graphs such as matplotlib and seaborn are used for Exploratory Data Analysis and sklearn and statsmodel modules are used for building the model 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
@@ -41,15 +40,14 @@ Based on various meteorological surveys and people's styles, the service provide
 - Pandas
 - Matplotlib
 - Seaboarn
+- Sklearn
+- Statsmodel
 
 ## Conclusions
-The analysis presented above is related to Bike Sharing data Set. 
-- The aim of this analysis to reduce the loss percentage of Consumer Finance Company by providing the loan to loan applicants
-- This detailed analysis of loan dataset using EDA addresses the two key challeges 
-    - If the applicant is likely to repay the loan, then not approving the loan results in a loss of business to the company
-    - If the applicant is not likely to repay the loan, i.e. he/she is likely to default, then approving the loan may lead to a financial loss for the company
-- The analysis presented above, identifies the number of Good_loan and Bad_loans using various EDA process and, also identify the staticstics to approve Full loan and Defaulted loan based on the loan applications. 
-- Hence, by identifing staticstics to Full approved loan and dfaulted loan, reduces the loss percentage for the Finance Company
+- The model the demand for shared bikes with the available independent variables. 
+- It will be used by the management to understand how exactly the demands vary with different features. 
+- The model can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. 
+- Further, the model will be a good way for management to understand the demand dynamics of a new market. 
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
