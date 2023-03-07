@@ -1,10 +1,16 @@
-# Lending Club Case Study
+# Multiple Linear Regression: Bike Sharing Assignment
 ### Introduction
-- The consumer finance company which specialises in lending various types of loans to urban customers. 
-- When the company receives a loan application, the company has to make a decision for loan approval based on the applicant’s profile. 
-- Two types of risks are associated with the bank’s decision:
-    - If the applicant is likely to repay the loan, then not approving the loan results in a loss of business to the company
-    - If the applicant is not likely to repay the loan, i.e. he/she is likely to default, then approving the loan may lead to a financial loss for the company
+A bike-sharing system is a service in which bikes are made available for shared use to individuals on a short term basis for a price or free. Many bike share systems allow people to borrow a bike from a "dock" which is usually computer-controlled wherein the user enters the payment information, and the system unlocks it. This bike can then be returned to another dock belonging to the same system.
+
+A US bike-sharing provider BoomBikes has recently suffered considerable dips in their revenues due to the ongoing Corona pandemic. The company is finding it very difficult to sustain in the current market scenario. So, it has decided to come up with a mindful business plan to be able to accelerate its revenue as soon as the ongoing lockdown comes to an end, and the economy restores to a healthy state. 
+
+In such an attempt, BoomBikes aspires to understand the demand for shared bikes among the people after this ongoing quarantine situation ends across the nation due to Covid-19. They have planned this to prepare themselves to cater to the people's needs once the situation gets better all around and stand out from other service providers and make huge profits.
+
+They have contracted a consulting company to understand the factors on which the demand for these shared bikes depends. Specifically, they want to understand the factors affecting the demand for these shared bikes in the American market. The company wants to know:
+
+Which variables are significant in predicting the demand for shared bikes.
+How well those variables describe the bike demands
+Based on various meteorological surveys and people's styles, the service provider firm has gathered a large dataset on daily bike demands across the American market based on some factors.
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -15,7 +21,7 @@
 
 ## General Information
 - This analysis highlights the Exploratory Data Analysis (EDA) for Loan Data Set
-- Various EDA process as been carried for loan dataset such as
+- Various EDA and data modelling process as been carried for bike sharing dataset such as
     - Data Sourcing
     - Data cleaning
     - Univariate analysis
@@ -23,14 +29,8 @@
     - Derived metrics
 - Various visual graphs such as matplotlib and seaborn are used for Exploratory Data Analysis
 - The Problem Statement is as follows
-![Case](https://user-images.githubusercontent.com/119028946/205984342-9bc19f4d-8569-473f-8a4b-661e93fa1fe2.png)
-- When a person applies for a loan, there are two types of decisions that could be taken by the company:
-    - __Loan accepted__: If the company approves the loan, there are 3 possible scenarios described below:
-        - __Fully paid__: Applicant has fully paid the loan (the principal and the interest rate) 
-        - __Current__: Applicant is in the process of paying the instalments, i.e. the tenure of the loan is not yet completed. These candidates are not labelled as 'defaulted'.
-        - __Charged-off__: Applicant has not paid the instalments in due time for a long period of time, i.e. he/she has defaulted on the loan
-     - __Loan rejected__: The company had rejected the loan (because the candidate does not meet their requirements etc.). Since the loan was rejected, there is no transactional history of those applicants with the company and so this data is not available with the company (and thus in this dataset)
-- The above figure illustrate the same
+
+-  model the demand for shared bikes with the available independent variables. It will be used by the management to understand how exactly the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market. 
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
@@ -43,7 +43,7 @@
 - Seaboarn
 
 ## Conclusions
-The analysis presented above is related to Loan data Set. 
+The analysis presented above is related to Bike Sharing data Set. 
 - The aim of this analysis to reduce the loss percentage of Consumer Finance Company by providing the loan to loan applicants
 - This detailed analysis of loan dataset using EDA addresses the two key challeges 
     - If the applicant is likely to repay the loan, then not approving the loan results in a loss of business to the company
